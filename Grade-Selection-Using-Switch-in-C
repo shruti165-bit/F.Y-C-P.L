@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+int main()
+{
+    int grade;
+
+    printf("Enter Grade Number (1-4): ");
+    scanf("%d",&grade);
+
+    switch(grade)
+    {
+        case 1: printf("Grade A"); break;
+        case 2: printf("Grade B"); break;
+        case 3: printf("Grade C"); break;
+        case 4: printf("Grade D"); break;
+        default: printf("Invalid Grade");
+    }
+
+    return 0;
+}
